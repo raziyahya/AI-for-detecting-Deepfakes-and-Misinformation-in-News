@@ -48,6 +48,6 @@ This project successfully developed AI models for detecting deepfakes in *image,
 ---
 
 ## Conclusion
-This project demonstrated the feasibility of AI models in detecting deepfakes across multiple media formats, providing a robust tool for combating misinformation in news media. All results and findings are available in their respective folders for review.
+This project demonstrated the feasibility of AI models in detecting deepfakes across multiple media formats, providing a robust tool for combating misinformation in news media. 
 
 ---
