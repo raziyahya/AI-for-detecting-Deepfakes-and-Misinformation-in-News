@@ -1,0 +1,32 @@
+{% extends 'user/uhome1.html' %}
+{% block body %}
+<form method="post" enctype="multipart/form-data" action="/predict_text_post">
+    <table class="table table-hover">
+        <tr>
+            <td><p style="color:white;">Enter Text</p></td>
+            <td><textarea name="txt" required class="form-control" rows="5">{{ t }}</textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div align="center"><input type="submit" value="Predict" class="btn btn-primary"></div>
+            </td>
+
+        </tr>
+
+    </table>
+</form>
+     {% if s == "1" %}
+
+            <tr>
+            <td colspan="2">
+                <div align="center"><h1>RESULT : {{ r }} </h1> </div>
+            </td>
+
+        </tr> <tr>
+            <td colspan="2">
+                <div align="center"><h1>PROBABILITY : {{ p }} </h1> </div>
+            </td>
+
+        </tr>
+        {% endif %}
+{% endblock %}
